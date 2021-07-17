@@ -11,3 +11,4 @@
 Config Files For Suvres PC
 * vimrc
 * zshrc
+* rofi
