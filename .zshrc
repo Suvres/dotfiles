@@ -36,7 +36,7 @@ config config --local status.showUntrackedFiles no
 # VARS
 PATH=$PATH:$HOME/.cargo/bin
 PS1=$'\n%B%F{green}%~%f\n%F{magenta}>%f%b '
-
+PATH=$HOME/.symfony/bin:$PATH
 
 
 # exports
