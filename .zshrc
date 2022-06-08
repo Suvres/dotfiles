@@ -18,11 +18,8 @@ alias ar="sudo apt remove"
 alias cfe="vim $HOME/.zshrc"
 alias cfi="source $HOME/.zshrc"
 alias la="exa -al --color=always --group-directories-first"
-alias agh="cd ~/Dokumenty/AGH/sprawozdania/suvres/semestr6"
-alias inz="cd ~/Dokumenty/AGH/inzynierka/gp-cgp/praca"
 alias dsnet="cd ~/Dokumenty/dsnet"
 alias dsnet-t="cd ~/Dokumenty/dsnet; tmux;"
-alias matlab="/usr/local/MATLAB/R2021b/bin/matlab &"
 
 # GIT
 alias gp="git push"
@@ -45,12 +42,8 @@ alias dcr="docker-compose run --rm"
 
 #config dotfiles
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-config config --local status.showUntrackedFiles no
+#config config --local status.showUntrackedFiles no
 
-
-#praca
-alias ebon="export PATH=/home/suvres/Dokumenty/dsnet/ebon/bin:$PATH"
-PATH=$PATH:/usr/bin/node
 
 # VARS
 PATH=$PATH:$HOME/.cargo/bin
@@ -78,7 +71,3 @@ setopt HIST_SAVE_NO_DUPS  # do not save duplicated command
 setopt HIST_REDUCE_BLANKS  # remove unnecessary blanks
 setopt INC_APPEND_HISTORY_TIME  # append command to history file immediately after execution
 setopt EXTENDED_HISTORY  # record command start time
-
-#export NVM_DIR="$HOME/.nvm"
-#[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-#[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
