@@ -18,8 +18,6 @@ alias ar="sudo apt remove"
 alias cfe="vim $HOME/.zshrc"
 alias cfi="source $HOME/.zshrc"
 alias la="exa -al --color=always --group-directories-first"
-alias dsnet="cd ~/Dokumenty/dsnet"
-alias dsnet-t="cd ~/Dokumenty/dsnet; tmux;"
 
 # GIT
 alias gp="git push"
@@ -57,8 +55,8 @@ export PATH
 export PS1
 export CURRENT_UID
 
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
-export JAVA_HOME="/usr/lib/jvm/java-1.17.0-openjdk-amd64"
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:/opt/apache-maven/bin:$PATH"
+export JAVA_HOME="/usr/lib/jvm/java-1.18.0-openjdk-amd64"
 
 # history
 export HISTFILE=~/.zsh_history
